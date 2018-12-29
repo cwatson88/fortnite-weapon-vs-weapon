@@ -1,0 +1,810 @@
+{
+  "Assult Rifles": [
+    {
+      "Name": "M16",
+      "Rarity": "Common",
+      "DPS": "165",
+      "Damage": "30",
+      "Fire Rate": "5.5",
+      "Mag": "30",
+      "Reload": "2.3"
+    },
+    {
+      "Name": "M16",
+      "Rarity": "Uncommon",
+      "DPS": "170.5",
+      "Damage": "31",
+      "Fire Rate": "5.5",
+      "Mag": "30",
+      "Reload": "2.2"
+    },
+    {
+      "Name": "M16",
+      "Rarity": "Rare",
+      "DPS": "181.5",
+      "Damage": "33",
+      "Fire Rate": "5.5",
+      "Mag": "30",
+      "Reload": "2.2"
+    },
+    {
+      "Name": "SCAR",
+      "Rarity": "Epic",
+      "DPS": "192.5",
+      "Damage": "35",
+      "Fire Rate": "5.5",
+      "Mag": "30",
+      "Reload": "2.2"
+    },
+    {
+      "Name": "SCAR",
+      "Rarity": "Legendary",
+      "DPS": "198",
+      "Damage": "36",
+      "Fire Rate": "5.5",
+      "Mag": "30",
+      "Reload": "2.1"
+    },
+    {
+      "Name": "Burst",
+      "Rarity": "Common",
+      "DPS": "109.7",
+      "Damage": "27",
+      "Fire Rate": "4.06",
+      "Mag": "30",
+      "Reload": "2.9"
+    },
+    {
+      "Name": "Burst",
+      "Rarity": "Uncommon",
+      "DPS": "117.9",
+      "Damage": "29",
+      "Fire Rate": "4.06",
+      "Mag": "30",
+      "Reload": "2.7"
+    },
+    {
+      "Name": "Burst",
+      "Rarity": "Rare",
+      "DPS": "121.9",
+      "Damage": "30",
+      "Fire Rate": "4.06",
+      "Mag": "30",
+      "Reload": "2.6"
+    },
+    {
+      "Name": "Burst (FAMAS)",
+      "Rarity": "Epic",
+      "DPS": "130.1",
+      "Damage": "32",
+      "Fire Rate": "4.06",
+      "Mag": "30",
+      "Reload": "2.5"
+    },
+    {
+      "Name": "Burst (FAMAS)",
+      "Rarity": "Legendary",
+      "DPS": "134.1",
+      "Damage": "33",
+      "Fire Rate": "4.06",
+      "Mag": "30",
+      "Reload": "2.3"
+    },
+    {
+      "Name": "Heavy",
+      "Rarity": "Rare",
+      "DPS": "165",
+      "Damage": "44",
+      "Fire Rate": "3.75",
+      "Mag": "25",
+      "Reload": "2.8"
+    },
+    {
+      "Name": "Heavy",
+      "Rarity": "Epic",
+      "DPS": "172.5",
+      "Damage": "46",
+      "Fire Rate": "4.06",
+      "Mag": "25",
+      "Reload": "2.66"
+    },
+    {
+      "Name": "Heavy",
+      "Rarity": "Legendary",
+      "DPS": "180",
+      "Damage": "48",
+      "Fire Rate": "4.06",
+      "Mag": "25",
+      "Reload": "2.52"
+    },
+    {
+      "Name": "Scoped",
+      "Rarity": "Rare",
+      "DPS": "80.5",
+      "Damage": "23",
+      "Fire Rate": "3.5",
+      "Mag": "20",
+      "Reload": "2.3"
+    },
+    {
+      "Name": "Scoped",
+      "Rarity": "Epic",
+      "DPS": "84",
+      "Damage": "24",
+      "Fire Rate": "3.5",
+      "Mag": "20",
+      "Reload": "2.2"
+    },
+    {
+      "Name": "Thermal Scoped",
+      "Rarity": "Epic",
+      "DPS": "64.8",
+      "Damage": "36",
+      "Fire Rate": "1.8",
+      "Mag": "15",
+      "Reload": "2.2"
+    },
+    {
+      "Name": "Thermal Scoped",
+      "Rarity": "Legendary",
+      "DPS": "66.6",
+      "Damage": "37",
+      "Fire Rate": "1.8",
+      "Mag": "15",
+      "Reload": "2.1"
+    },
+    {
+      "Name": "Light Machine Gun",
+      "Rarity": "Rare",
+      "DPS": "200",
+      "Damage": "25",
+      "Fire Rate": "8",
+      "Mag": "100",
+      "Reload": "5"
+    },
+    {
+      "Name": "Light Machine Gun",
+      "Rarity": "Epic",
+      "DPS": "208",
+      "Damage": "26",
+      "Fire Rate": "8",
+      "Mag": "100",
+      "Reload": "4.7"
+    }
+  ],
+  "Grenade Launchers": [
+    {
+      "Name": "Grenade Launcher",
+      "Rarity": "Rare",
+      "DPS": "100",
+      "Damage": "100",
+      "Fire Rate": "1",
+      "Mag": "6",
+      "Reload": "2.9"
+    },
+    {
+      "Name": "Grenade Launcher",
+      "Rarity": "Epic",
+      "DPS": "105",
+      "Damage": "105",
+      "Fire Rate": "1",
+      "Mag": "6",
+      "Reload": "2.8"
+    },
+    {
+      "Name": "Grenade Launcher",
+      "Rarity": "Legendary",
+      "DPS": "110",
+      "Damage": "100",
+      "Fire Rate": "1",
+      "Mag": "6",
+      "Reload": "2.7"
+    }
+  ],
+  "Pistols": [
+    {
+      "Name": "Revolver*",
+      "Rarity": "Common",
+      "DPS": "48.6",
+      "Damage": "54",
+      "Fire Rate": "0.9",
+      "Mag": "6",
+      "Reload": "2.4"
+    },
+    {
+      "Name": "Revolver*",
+      "Rarity": "Uncommon",
+      "DPS": "51.3",
+      "Damage": "57",
+      "Fire Rate": "0.9",
+      "Mag": "6",
+      "Reload": "2.3"
+    },
+    {
+      "Name": "Revolver*",
+      "Rarity": "Rare",
+      "DPS": "54",
+      "Damage": "60",
+      "Fire Rate": "0.9",
+      "Mag": "6",
+      "Reload": "2.2"
+    },
+    {
+      "Name": "Pistol",
+      "Rarity": "Common",
+      "DPS": "155.2",
+      "Damage": "23",
+      "Fire Rate": "6.75",
+      "Mag": "16",
+      "Reload": "1.5"
+    },
+    {
+      "Name": "Pistol",
+      "Rarity": "Uncommon",
+      "DPS": "162",
+      "Damage": "24",
+      "Fire Rate": "6.75",
+      "Mag": "16",
+      "Reload": "1.5"
+    },
+    {
+      "Name": "Pistol",
+      "Rarity": "Rare",
+      "DPS": "168.7",
+      "Damage": "25",
+      "Fire Rate": "6.75",
+      "Mag": "16",
+      "Reload": "1.4"
+    },
+    {
+      "Name": "Suppressed Pistol",
+      "Rarity": "Epic",
+      "DPS": "175.5",
+      "Damage": "26",
+      "Fire Rate": "6.75",
+      "Mag": "16",
+      "Reload": "1.3"
+    },
+    {
+      "Name": "Suppressed Pistol",
+      "Rarity": "Legendary",
+      "DPS": "189",
+      "Damage": "28",
+      "Fire Rate": "6.75",
+      "Mag": "16",
+      "Reload": "1.3"
+    },
+    {
+      "Name": "Hand Cannon",
+      "Rarity": "Epic",
+      "DPS": "60",
+      "Damage": "75",
+      "Fire Rate": "0.8",
+      "Mag": "7",
+      "Reload": "2.1"
+    },
+    {
+      "Name": "Hand Cannon",
+      "Rarity": "Legendary",
+      "DPS": "62.4",
+      "Damage": "78",
+      "Fire Rate": "0.8",
+      "Mag": "7",
+      "Reload": "2.0"
+    },
+    {
+      "Name": "Dual Pistols",
+      "Rarity": "Epic",
+      "DPS": "162.5",
+      "Damage": "41",
+      "Fire Rate": "3.96",
+      "Mag": "18",
+      "Reload": "2.8"
+    },
+    {
+      "Name": "Dual Pistols",
+      "Rarity": "Legendary",
+      "DPS": "170.2",
+      "Damage": "43",
+      "Fire Rate": "3.96",
+      "Mag": "18",
+      "Reload": "2.7"
+    },
+    {
+      "Name": "Six Shooter",
+      "Rarity": "Uncommon",
+      "DPS": "170",
+      "Damage": "34",
+      "Fire Rate": "5",
+      "Mag": "6",
+      "Reload": "2.42"
+    },
+    {
+      "Name": "Six Shooter",
+      "Rarity": "Rare",
+      "DPS": "180",
+      "Damage": "36",
+      "Fire Rate": "5",
+      "Mag": "6",
+      "Reload": "2.3"
+    },
+    {
+      "Name": "Six Shooter",
+      "Rarity": "Epic",
+      "DPS": "190",
+      "Damage": "38",
+      "Fire Rate": "5",
+      "Mag": "6",
+      "Reload": "2.19"
+    }
+  ],
+  "Rocket Launchers": [
+    {
+      "Name": "Rocket Launcher",
+      "Rarity": "Rare",
+      "DPS": "82.5",
+      "Damage": "110",
+      "Fire Rate": "0.75",
+      "Mag": "1",
+      "Reload": "2.8"
+    },
+    {
+      "Name": "Rocket Launcher",
+      "Rarity": "Epic",
+      "DPS": "87",
+      "Damage": "116",
+      "Fire Rate": "0.75",
+      "Mag": "1",
+      "Reload": "2.66"
+    },
+    {
+      "Name": "Rocket Launcher",
+      "Rarity": "Legendary",
+      "DPS": "90.7",
+      "Damage": "121",
+      "Fire Rate": "0.75",
+      "Mag": "1",
+      "Reload": "2.52"
+    },
+    {
+      "Name": "Guided Missile",
+      "Rarity": "Epic",
+      "DPS": "55.5",
+      "Damage": "74",
+      "Fire Rate": "0.75",
+      "Mag": "1",
+      "Reload": "2.4"
+    },
+    {
+      "Name": "Guided Missile",
+      "Rarity": "Legendary",
+      "DPS": "57.7",
+      "Damage": "77",
+      "Fire Rate": "0.75",
+      "Mag": "1",
+      "Reload": "2.2"
+    },
+    {
+      "Name": "Quad Launcher",
+      "Rarity": "Epic",
+      "DPS": "80",
+      "Damage": "80",
+      "Fire Rate": "1",
+      "Mag": "4",
+      "Reload": "4.75"
+    },
+    {
+      "Name": "Quad Launcher",
+      "Rarity": "Legendary",
+      "DPS": "84",
+      "Damage": "84",
+      "Fire Rate": "1",
+      "Mag": "4",
+      "Reload": "4.5"
+    }
+  ],
+  "Shotguns": [
+    {
+      "Name": "Pump Shotgun",
+      "Rarity": "Uncommon",
+      "DPS": "63",
+      "Damage": "80",
+      "Fire Rate": "0.7",
+      "Mag": "5",
+      "Reload": "4.8"
+    },
+    {
+      "Name": "Pump Shotgun",
+      "Rarity": "Rare",
+      "DPS": "66.5",
+      "Damage": "85",
+      "Fire Rate": "0.7",
+      "Mag": "5",
+      "Reload": "4.6"
+    },
+    {
+      "Name": "Pump Shotgun",
+      "Rarity": "Epic",
+      "DPS": "73.5",
+      "Damage": "105",
+      "Fire Rate": "0.7",
+      "Mag": "5",
+      "Reload": "4.4"
+    },
+    {
+      "Name": "Pump Shotgun",
+      "Rarity": "Legendary",
+      "DPS": "77",
+      "Damage": "110",
+      "Fire Rate": "0.7",
+      "Mag": "5",
+      "Reload": "4.2"
+    },
+    {
+      "Name": "Double Barrel*",
+      "Rarity": "Epic",
+      "DPS": "216.6",
+      "Damage": "114",
+      "Fire Rate": "1.9",
+      "Mag": "2",
+      "Reload": "2.8"
+    },
+    {
+      "Name": "Double Barrel*",
+      "Rarity": "Legendary",
+      "DPS": "228",
+      "Damage": "120",
+      "Fire Rate": "1.9",
+      "Mag": "2",
+      "Reload": "2.7"
+    },
+    {
+      "Name": "Tactical Shotgun",
+      "Rarity": "Uncommon",
+      "DPS": "100.5",
+      "Damage": "67",
+      "Fire Rate": "1.5",
+      "Mag": "8",
+      "Reload": "6.3"
+    },
+    {
+      "Name": "Tactical Shotgun",
+      "Rarity": "Rare",
+      "DPS": "105",
+      "Damage": "70",
+      "Fire Rate": "1.5",
+      "Mag": "8",
+      "Reload": "6"
+    },
+    {
+      "Name": "Tactical Shotgun",
+      "Rarity": "Epic",
+      "DPS": "111",
+      "Damage": "74",
+      "Fire Rate": "1.5",
+      "Mag": "8",
+      "Reload": "6"
+    },
+    {
+      "Name": "Heavy Shotgun",
+      "Rarity": "Epic",
+      "DPS": "73.5",
+      "Damage": "73.5",
+      "Fire Rate": "1.0",
+      "Mag": "7",
+      "Reload": "5.9"
+    },
+    {
+      "Name": "Heavy Shotgun",
+      "Rarity": "Legendary",
+      "DPS": "77",
+      "Damage": "77",
+      "Fire Rate": "1.0",
+      "Mag": "7",
+      "Reload": "5.6"
+    }
+  ],
+  "Sniper Rifles": [
+    {
+      "Name": "Bolt-Action (AWP)",
+      "Rarity": "Rare",
+      "DPS": "32",
+      "Damage": "105",
+      "Fire Rate": "0.33",
+      "Mag": "1",
+      "Reload": "3"
+    },
+    {
+      "Name": "Bolt-Action (AWP)",
+      "Rarity": "Epic",
+      "DPS": "35",
+      "Damage": "110",
+      "Fire Rate": "0.33",
+      "Mag": "1",
+      "Reload": "2.8"
+    },
+    {
+      "Name": "Bolt-Action (AWP)",
+      "Rarity": "Legendary",
+      "DPS": "38",
+      "Damage": "116",
+      "Fire Rate": "0.33",
+      "Mag": "1",
+      "Reload": "2.7"
+    },
+    {
+      "Name": "Semi-Auto",
+      "Rarity": "Epic",
+      "DPS": "53",
+      "Damage": "63",
+      "Fire Rate": "1.2",
+      "Mag": "10",
+      "Reload": "2.5"
+    },
+    {
+      "Name": "Semi-Auto",
+      "Rarity": "Legendary",
+      "DPS": "55",
+      "Damage": "66",
+      "Fire Rate": "1.2",
+      "Mag": "10",
+      "Reload": "2.3"
+    },
+    {
+      "Name": "Hunting Rifle",
+      "Rarity": "Uncommon",
+      "DPS": "68.8",
+      "Damage": "86",
+      "Fire Rate": "0.8",
+      "Mag": "1",
+      "Reload": "1.9"
+    },
+    {
+      "Name": "Hunting Rifle",
+      "Rarity": "Rare",
+      "DPS": "72",
+      "Damage": "90",
+      "Fire Rate": "0.8",
+      "Mag": "1",
+      "Reload": "1.8"
+    },
+    {
+      "Name": "Heavy",
+      "Rarity": "Epic",
+      "DPS": "49.5",
+      "Damage": "150",
+      "Fire Rate": "0.33",
+      "Mag": "1",
+      "Reload": "4.275"
+    },
+    {
+      "Name": "Heavy",
+      "Rarity": "Legendary",
+      "DPS": "51.85",
+      "Damage": "157",
+      "Fire Rate": "0.33",
+      "Mag": "1",
+      "Reload": "4.05"
+    }
+  ],
+  "SMGs": [
+    {
+      "Name": "Submachine",
+      "Rarity": "Common",
+      "DPS": "204",
+      "Damage": "17",
+      "Fire Rate": "12",
+      "Mag": "30",
+      "Reload": "2.4"
+    },
+    {
+      "Name": "Submachine",
+      "Rarity": "Uncommon",
+      "DPS": "216",
+      "Damage": "18",
+      "Fire Rate": "12",
+      "Mag": "30",
+      "Reload": "2.3"
+    },
+    {
+      "Name": "Submachine",
+      "Rarity": "Rare",
+      "DPS": "228",
+      "Damage": "19",
+      "Fire Rate": "12",
+      "Mag": "30",
+      "Reload": "2.2"
+    },
+    {
+      "Name": "Suppressed",
+      "Rarity": "Common",
+      "DPS": "198",
+      "Damage": "22",
+      "Fire Rate": "9",
+      "Mag": "30",
+      "Reload": "2.2"
+    },
+    {
+      "Name": "Suppressed",
+      "Rarity": "Uncommon",
+      "DPS": "207",
+      "Damage": "23",
+      "Fire Rate": "9",
+      "Mag": "30",
+      "Reload": "2.1"
+    },
+    {
+      "Name": "Suppressed",
+      "Rarity": "Rare",
+      "DPS": "216",
+      "Damage": "24",
+      "Fire Rate": "9",
+      "Mag": "30",
+      "Reload": "2"
+    },
+    {
+      "Name": "Tactical*",
+      "Rarity": "Common",
+      "DPS": "208",
+      "Damage": "16",
+      "Fire Rate": "13",
+      "Mag": "35",
+      "Reload": "2.4"
+    },
+    {
+      "Name": "Tactical*",
+      "Rarity": "Rare",
+      "DPS": "221",
+      "Damage": "17",
+      "Fire Rate": "13",
+      "Mag": "35",
+      "Reload": "2.3"
+    },
+    {
+      "Name": "Tactical*",
+      "Rarity": "Epic",
+      "DPS": "234",
+      "Damage": "18",
+      "Fire Rate": "13",
+      "Mag": "35",
+      "Reload": "2.2"
+    },
+    {
+      "Name": "Compact SMG",
+      "Rarity": "Epic",
+      "DPS": "210",
+      "Damage": "21",
+      "Fire Rate": "10",
+      "Mag": "50",
+      "Reload": "3.1"
+    },
+    {
+      "Name": "Compact SMG",
+      "Rarity": "Legendary",
+      "DPS": "264",
+      "Damage": "22",
+      "Fire Rate": "10",
+      "Mag": "50",
+      "Reload": "2.97"
+    },
+    {
+      "Name": "Drum Gun*",
+      "Rarity": "Uncommon",
+      "DPS": "234",
+      "Damage": "26",
+      "Fire Rate": "9",
+      "Mag": "50",
+      "Reload": "3.2"
+    },
+    {
+      "Name": "Drum Gun*",
+      "Rarity": "Rare",
+      "DPS": "243",
+      "Damage": "27",
+      "Fire Rate": "9",
+      "Mag": "50",
+      "Reload": "3.0"
+    },
+    {
+      "Name": "Minigun",
+      "Rarity": "Epic",
+      "DPS": "216",
+      "Damage": "18",
+      "Fire Rate": "12",
+      "Mag": "0",
+      "Reload": "4.7"
+    },
+    {
+      "Name": "Minigun",
+      "Rarity": "Legendary",
+      "DPS": "228",
+      "Damage": "19",
+      "Fire Rate": "12",
+      "Mag": "0",
+      "Reload": "4.5"
+    }
+  ],
+  "Grenades": [
+    {
+      "Name": "Grenade",
+      "Rarity": "Common",
+      "DPS": "210",
+      "Damage": "105",
+      "Fire Rate": "5%",
+      "Mag": "50%",
+      "Reload": "393"
+    },
+    {
+      "Name": "Boogie Bomb",
+      "Rarity": "Rare",
+      "DPS": "0",
+      "Damage": "0",
+      "Fire Rate": "5%",
+      "Mag": "50%",
+      "Reload": "0"
+    },
+    {
+      "Name": "Impulse Grenade",
+      "Rarity": "Rare",
+      "DPS": "0",
+      "Damage": "0",
+      "Fire Rate": "5%",
+      "Mag": "50%",
+      "Reload": "0"
+    },
+    {
+      "Name": "Port-A-Fort",
+      "Rarity": "Epic",
+      "DPS": "0",
+      "Damage": "0",
+      "Fire Rate": "0",
+      "Mag": "0",
+      "Reload": "0"
+    },
+    {
+      "Name": "Rift-to-Go",
+      "Rarity": "Epic",
+      "DPS": "0",
+      "Damage": "0",
+      "Fire Rate": "0",
+      "Mag": "0",
+      "Reload": "0"
+    },
+    {
+      "Name": "Shockwave Grenade*",
+      "Rarity": "Rare",
+      "DPS": "0",
+      "Damage": "0",
+      "Fire Rate": "0",
+      "Mag": "0",
+      "Reload": "0"
+    },
+    {
+      "Name": "Remote Explosive",
+      "Rarity": "Rare",
+      "DPS": "-",
+      "Damage": "70",
+      "Fire Rate": "-",
+      "Mag": "-",
+      "Reload": ">1200"
+    },
+    {
+      "Name": "Clinger*",
+      "Rarity": "Uncommon",
+      "DPS": "200",
+      "Damage": "100",
+      "Fire Rate": "0%",
+      "Mag": "0%",
+      "Reload": "200"
+    },
+    {
+      "Name": "Stink Bomb",
+      "Rarity": "Epic",
+      "DPS": "10",
+      "Damage": "5 (per half-second, duration of 9 seconds)",
+      "Fire Rate": "-",
+      "Mag": "-",
+      "Reload": "-"
+    }
+  ]
+}
