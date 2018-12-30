@@ -12,7 +12,6 @@ function App() {
     <div className="App">
       <MainContext>
         <Header />
-        <WeaponSearch />
         <WeaponCards />
       </MainContext>
     </div>

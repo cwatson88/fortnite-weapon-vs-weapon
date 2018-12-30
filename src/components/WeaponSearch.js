@@ -5,10 +5,8 @@ import { Dropdown } from "semantic-ui-react";
 
 export default function WeaponSearch() {
   const context = useContext(CountCtx);
-  const { weaponA } = context.state;
+  const { weaponList } = context.state;
   const { setGuns } = context.actions;
-  const weaponCatagories = Object.keys(weaponA);
-  console.log(weaponA["Assult Rifles"]);
   const changeGun = e => {
     setGuns({ gun: e.target.value });
   };

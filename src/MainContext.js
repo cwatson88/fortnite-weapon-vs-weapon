@@ -7,14 +7,14 @@ export const CountCtx = createContext([0]);
 
 const MainContext = ({ children }) => {
   const [guns, setGuns] = useState({ gun: "smg" });
-  const [weaponA, setWeaponA] = useState(fortniteWeapons);
+  const [weaponList, setWeaponList] = useState(fortniteWeapons);
   const state = {
     guns,
-    weaponA
+    weaponList
   };
   const actions = {
     setGuns,
-    setWeaponA
+    setWeaponList
   };
 
   const filterWeapons = (weapons, selectedWeapon) =>
