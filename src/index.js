@@ -6,6 +6,7 @@ import MainContext from "./MainContext";
 import "semantic-ui-css/semantic.min.css";
 import WeaponCards from "./components/WeaponCards";
 import "./styles.css";
+import Portal from "./Portal";
 
 function App() {
   return (

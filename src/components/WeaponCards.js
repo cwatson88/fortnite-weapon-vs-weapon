@@ -39,7 +39,7 @@ export default function WeaponCards() {
 
   const weaponCategoriesList = weaponsGroupedByCategory(weaponList);
   return Object.keys(weaponCategoriesList).map(categoryItems => (
-    <div>
+    <div key={categoryItems}>
       <StyledCategoryHeader>{categoryItems}</StyledCategoryHeader>
       <StyledDivFlex>
         {weaponCategoriesList[categoryItems].map(weapon => (
