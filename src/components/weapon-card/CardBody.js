@@ -6,30 +6,39 @@ import Portal from "../../Portal";
 const fadeIn = keyframes`
   0% {
     opacity: 0;
-    transform: rotate(-11deg);
   }
   100% {
     opacity: 1;
-    transform: rotate(11deg);
   }
 `;
 
 const flipOut = keyframes`
   0% {
     opacity: 1;
-    transform: rotate(11deg);
+    transform: rotateY(120deg)
   }
   100% {
     opacity: 1;
-    transform: rotateY(180deg) scale(2);
+    transform: rotateY(0deg) scale(2);
   }
 `;
 
-const anim = css`
+const fadeCardAnimation = css`
+  transform-origin: right center;
   animation: 0.4s ${fadeIn} ease-out 0s 1 normal forwards;
 `;
-const anim2 = css`
-  animation: 1s ${flipOut} ease-out 0s 1 normal forwards;
+const fipCardAnimation = css`
+  animation: 0.5s ${flipOut} ease-out 0s 1 normal forwards;
+`;
+
+const backgroundGradient = css`
+  background: ${({ rarityHSL }) => `
+  linear-gradient(
+    135deg,
+    hsl(${rarityHSL[0]}, ${rarityHSL[1]}%, ${rarityHSL[2]}%) 0%,
+    hsl(${rarityHSL[0]}, ${rarityHSL[1]}%, ${rarityHSL[2] - 10}%) 50%,
+    hsl(${rarityHSL[0]}, ${rarityHSL[1]}%, ${rarityHSL[2] - 20}%) 100%
+  );`});
 `;
 
 const StyledCardBody = styled.div`
@@ -38,20 +47,27 @@ const StyledCardBody = styled.div`
   width: auto;
   height: 230px;
   border-radius: 13px;
-  background: radial-gradient(#cccccc, ${props => props.rarity});
+  ${backgroundGradient}
   box-shadow: -11px -8px 8px 3px #00000047;
   padding: 2px;
   margin: 10px;
-  transform: rotate(-11deg);
-  margin-left: -47px;
-  transform-origin: top left;
 `;
 
 const FrontCard = styled(StyledCardBody)`
-  ${props => (!props.animation ? anim : null)};
+  transform: rotate(-5deg);
+  margin-left: -47px;
+  ${props => (!props.animation ? fadeCardAnimation : null)};
 `;
 const BackCard = styled(StyledCardBody)`
-  ${props => (props.animation ? anim2 : null)};
+  font-size: 0.4em;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  ${props => (props.animation ? fipCardAnimation : null)};
+  img {
+    height: 50px;
+  }
 `;
 
 const SmallIcon = styled.img`
@@ -71,7 +87,7 @@ const StyledHeader = styled.header`
   line-height: 0.9em;
 `;
 
-const Modal = styled(Portal)`
+const Modal = styled.div`
   background: #0000009e;
   width: 100%;
   z-index: 9999;
@@ -80,23 +96,35 @@ const Modal = styled(Portal)`
   top: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
 `;
 
-const CardBody = ({ name, img, rarity, index }) => {
+const CardBody = ({
+  name,
+  img,
+  rarity,
+  index,
+  dps,
+  damage,
+  envDamage,
+  fireRate5,
+  magazine,
+  reloadTime
+}) => {
   const [flipped, setFlipped] = useState(false);
   const imgUrl = `https://db.fortnitetracker.com/${img}`;
   const rarityColor = rarity => {
     switch (rarity) {
       case "Common":
-        return "#7e7e7e";
+        return [0, 0, 80];
       case "Uncommon":
-        return "#00aa58";
+        return [151, 100, 33];
       case "Rare":
-        return "#008fbd";
+        return [195, 100, 37];
       case "Epic":
-        return "#b018dd";
+        return [286, 80, 48];
       case "Legendary":
-        return "#de9c3c";
+        return [36, 71, 55];
       default:
         return "white";
     }
@@ -105,7 +133,7 @@ const CardBody = ({ name, img, rarity, index }) => {
     <div>
       {!flipped ? (
         <FrontCard
-          rarity={rarityColor(rarity)}
+          rarityHSL={rarityColor(rarity)}
           index={index}
           onClick={() => setFlipped(!flipped)}
           animation={flipped}
@@ -114,14 +142,25 @@ const CardBody = ({ name, img, rarity, index }) => {
           <StyledHeader>{name}</StyledHeader>
         </FrontCard>
       ) : (
-        <Modal>
-          <BackCard
-            rarity={rarityColor(rarity)}
-            index={index}
-            onClick={() => setFlipped(!flipped)}
-            animation={flipped}
-          />
-        </Modal>
+        <Portal>
+          <Modal>
+            <BackCard
+              rarityHSL={rarityColor(rarity)}
+              index={index}
+              onClick={() => setFlipped(!flipped)}
+              animation={flipped}
+            >
+              <SmallIcon src={imgUrl} />
+              <StyledHeader>{name}</StyledHeader>
+              <p>dps: {dps}</p>
+              <p>damage: {damage}</p>
+              <p>envDamage: {envDamage}</p>
+              <p>fireRate5: {fireRate5}</p>
+              <p>magazine: {magazine}</p>
+              <p>reloadTime: {reloadTime}</p>
+            </BackCard>
+          </Modal>
+        </Portal>
       )}
     </div>
   );

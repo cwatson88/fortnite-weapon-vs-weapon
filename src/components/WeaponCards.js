@@ -7,7 +7,9 @@ const StyledDivFlex = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center
   padding-left: 55px;
+  padding-bottom:20px;
 `;
 
 const StyledCategoryHeader = styled.h2`
@@ -48,6 +50,12 @@ export default function WeaponCards() {
             img={weapon.imageSrc}
             name={weapon.name}
             rarity={weapon.rarity}
+            dps={weapon.dps}
+            damage={weapon.damage}
+            envDamage={weapon.envDamage}
+            fireRate5={weapon.fireRate5}
+            magazine={weapon.magazine}
+            reloadTime={weapon.reloadTime}
           />
         ))}
       </StyledDivFlex>
