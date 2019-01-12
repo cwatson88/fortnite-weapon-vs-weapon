@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import styled from "styled-components";
-import { CountCtx } from "../MainContext";
+import { GunsContext } from "../MainContext";
 import CardBody from "./weapon-card/CardBody";
 
 const StyledDivFlex = styled.div`
@@ -24,9 +24,8 @@ const StyledCategoryHeader = styled.h2`
 `;
 
 export default function WeaponCards() {
-  const context = useContext(CountCtx);
+  const context = useContext(GunsContext);
   const { weaponList } = context.state;
-  const { setGuns } = context.actions;
 
   const weaponsGroupedByCategory = weaponsList =>
     weaponsList.reduce((weapons, currentWeapon) => {
@@ -56,6 +55,7 @@ export default function WeaponCards() {
             fireRate5={weapon.fireRate5}
             magazine={weapon.magazine}
             reloadTime={weapon.reloadTime}
+            uid={weapon.uid}
           />
         ))}
       </StyledDivFlex>

@@ -8,7 +8,7 @@ const getCenterBrowserWindow = () => {
   return { x: centerX, y: centerY };
 };
 
-export const CountCtx = createContext([0]);
+export const GunsContext = createContext([0]);
 
 const MainContext = ({ children }) => {
   const [guns, setGuns] = useState({ gun: "smg" });
@@ -16,15 +16,22 @@ const MainContext = ({ children }) => {
   const [centerBrowserWindow, setCenterBrowserWindow] = useState(
     getCenterBrowserWindow()
   );
+  const [gunVsGun, setGunVsGun] = useState([]);
   const state = {
     guns,
     weaponList,
-    centerBrowserWindow
+    centerBrowserWindow,
+    gunVsGun
   };
   const actions = {
     setGuns,
     setWeaponList,
-    setCenterBrowserWindow
+    setCenterBrowserWindow,
+    setGunVsGun
+  };
+
+  const updateGunVsGun = gunID => {
+    weaponList.find(gun => gun.uid === gunID);
   };
 
   window.addEventListener("resize", () => {
@@ -36,9 +43,9 @@ const MainContext = ({ children }) => {
 
   return (
     <div>
-      <CountCtx.Provider value={{ state, actions }}>
+      <GunsContext.Provider value={{ state, actions }}>
         {children}
-      </CountCtx.Provider>
+      </GunsContext.Provider>
     </div>
   );
 };

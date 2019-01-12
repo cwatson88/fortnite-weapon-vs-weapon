@@ -8,6 +8,7 @@ const StyledHeader = styled.h1`
   text-shadow: 3px 1px 1px #4527a0;
   line-height: 0.8em;
   font-size: 3em;
+  padding: 5px;
 `;
 
 export default function Header() {

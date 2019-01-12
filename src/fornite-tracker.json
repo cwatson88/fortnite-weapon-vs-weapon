@@ -1,5 +1,6 @@
 [
   {
+    "uid": "AssaultRifleBurstRareEpic",
     "category": "Assult Rifle",
     "name": "Assault Rifle (Burst Rare)",
     "rarity": "Epic",
@@ -13,6 +14,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/assault-rifle-burst-rare.png"
   },
   {
+    "uid": "AssaultRifleBurstRareLegendary",
     "category": "Assult Rifle",
     "name": "Assault Rifle (Burst Rare)",
     "rarity": "Legendary",
@@ -26,6 +28,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/assault-rifle-burst-rare.png"
   },
   {
+    "uid": "AssaultRifleBurstCommon",
     "category": "Assult Rifle",
     "name": "Assault Rifle (Burst)",
     "rarity": "Common",
@@ -39,6 +42,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/assault-rifle-burst.png"
   },
   {
+    "uid": "AssaultRifleBurstUncommon",
     "category": "Assult Rifle",
     "name": "Assault Rifle (Burst)",
     "rarity": "Uncommon",
@@ -52,6 +56,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/assault-rifle-burst.png"
   },
   {
+    "uid": "AssaultRifleBurstRare",
     "category": "Assult Rifle",
     "name": "Assault Rifle (Burst)",
     "rarity": "Rare",
@@ -65,6 +70,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/assault-rifle-burst.png"
   },
   {
+    "uid": "AssaultRifleM4Common",
     "category": "Assult Rifle",
     "name": "Assault Rifle (M4)",
     "rarity": "Common",
@@ -78,6 +84,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/assault-rifle-m4.png"
   },
   {
+    "uid": "AssaultRifleM4Uncommon",
     "category": "Assult Rifle",
     "name": "Assault Rifle (M4)",
     "rarity": "Uncommon",
@@ -91,6 +98,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/assault-rifle-m4.png"
   },
   {
+    "uid": "AssaultRifleM4Rare",
     "category": "Assult Rifle",
     "name": "Assault Rifle (M4)",
     "rarity": "Rare",
@@ -104,6 +112,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/assault-rifle-m4.png"
   },
   {
+    "uid": "AssaultRifleSCAREpic",
     "category": "Assult Rifle",
     "name": "Assault Rifle (SCAR)",
     "rarity": "Epic",
@@ -117,6 +126,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/assault-rifle-scar.png"
   },
   {
+    "uid": "AssaultRifleSCARLegendary",
     "category": "Assult Rifle",
     "name": "Assault Rifle (SCAR)",
     "rarity": "Legendary",
@@ -130,6 +140,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/assault-rifle-scar.png"
   },
   {
+    "uid": "AssaultRifleScopedRare",
     "category": "Assult Rifle",
     "name": "Assault Rifle (Scoped)",
     "rarity": "Rare",
@@ -143,6 +154,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/assault-rifle-scoped.png"
   },
   {
+    "uid": "AssaultRifleScopedEpic",
     "category": "Assult Rifle",
     "name": "Assault Rifle (Scoped)",
     "rarity": "Epic",
@@ -156,6 +168,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/assault-rifle-scoped.png"
   },
   {
+    "uid": "HeavyAssaultRifleRare",
     "category": "Assult Rifle",
     "name": "Heavy Assault Rifle",
     "rarity": "Rare",
@@ -169,6 +182,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/heavy-assault-rifle.png"
   },
   {
+    "uid": "HeavyAssaultRifleEpic",
     "category": "Assult Rifle",
     "name": "Heavy Assault Rifle",
     "rarity": "Epic",
@@ -182,6 +196,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/heavy-assault-rifle.png"
   },
   {
+    "uid": "HeavyAssaultRifleLegendary",
     "category": "Assult Rifle",
     "name": "Heavy Assault Rifle",
     "rarity": "Legendary",
@@ -195,6 +210,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/heavy-assault-rifle.png"
   },
   {
+    "uid": "SuppressedAssaultRifleEpic",
     "category": "Assult Rifle",
     "name": "Suppressed Assault Rifle",
     "rarity": "Epic",
@@ -208,6 +224,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/suppressed-assault-rifle.png"
   },
   {
+    "uid": "SuppressedAssaultRifleLegendary",
     "category": "Assult Rifle",
     "name": "Suppressed Assault Rifle",
     "rarity": "Legendary",
@@ -221,6 +238,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/suppressed-assault-rifle.png"
   },
   {
+    "uid": "ThermalScopeAssaultRifleEpic",
     "category": "Assult Rifle",
     "name": "Thermal Scope Assault Rifle",
     "rarity": "Epic",
@@ -234,6 +252,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/thermal-scope-assault-rifle.png"
   },
   {
+    "uid": "ThermalScopeAssaultRifleLegendary",
     "category": "Assult Rifle",
     "name": "Thermal Scope Assault Rifle",
     "rarity": "Legendary",
@@ -247,6 +266,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/thermal-scope-assault-rifle.png"
   },
   {
+    "uid": "HeavyShotgunEpic",
     "category": "Shotgun",
     "name": "Heavy Shotgun",
     "rarity": "Epic",
@@ -260,6 +280,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/heavy-shotgun.png"
   },
   {
+    "uid": "HeavyShotgunLegendary",
     "category": "Shotgun",
     "name": "Heavy Shotgun",
     "rarity": "Legendary",
@@ -273,6 +294,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/heavy-shotgun.png"
   },
   {
+    "uid": "PumpShotgunCommon",
     "category": "Shotgun",
     "name": "Pump Shotgun",
     "rarity": "Common",
@@ -286,6 +308,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/pump-shotgun.png"
   },
   {
+    "uid": "PumpShotgunUncommon",
     "category": "Shotgun",
     "name": "Pump Shotgun",
     "rarity": "Uncommon",
@@ -299,6 +322,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/pump-shotgun.png"
   },
   {
+    "uid": "PumpShotgunRare",
     "category": "Shotgun",
     "name": "Pump Shotgun",
     "rarity": "Rare",
@@ -312,6 +336,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/pump-shotgun.png"
   },
   {
+    "uid": "PumpShotgunEpic",
     "category": "Shotgun",
     "name": "Pump Shotgun",
     "rarity": "Epic",
@@ -325,6 +350,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/pump-shotgun.png"
   },
   {
+    "uid": "PumpShotgunLegendary",
     "category": "Shotgun",
     "name": "Pump Shotgun",
     "rarity": "Legendary",
@@ -338,6 +364,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/pump-shotgun.png"
   },
   {
+    "uid": "TacticalShotgunCommon",
     "category": "Shotgun",
     "name": "Tactical Shotgun",
     "rarity": "Common",
@@ -351,6 +378,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/tactical-shotgun.png"
   },
   {
+    "uid": "TacticalShotgunUncommon",
     "category": "Shotgun",
     "name": "Tactical Shotgun",
     "rarity": "Uncommon",
@@ -364,6 +392,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/tactical-shotgun.png"
   },
   {
+    "uid": "TacticalShotgunRare",
     "category": "Shotgun",
     "name": "Tactical Shotgun",
     "rarity": "Rare",
@@ -377,6 +406,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/tactical-shotgun.png"
   },
   {
+    "uid": "HandCannonEpic",
     "category": "Pistol",
     "name": "Hand Cannon",
     "rarity": "Epic",
@@ -390,6 +420,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/hand-cannon.png"
   },
   {
+    "uid": "HandCannonLegendary",
     "category": "Pistol",
     "name": "Hand Cannon",
     "rarity": "Legendary",
@@ -403,6 +434,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/hand-cannon.png"
   },
   {
+    "uid": "PistolCommon",
     "category": "Pistol",
     "name": "Pistol",
     "rarity": "Common",
@@ -416,6 +448,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/pistol.png"
   },
   {
+    "uid": "PistolUncommon",
     "category": "Pistol",
     "name": "Pistol",
     "rarity": "Uncommon",
@@ -429,6 +462,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/pistol.png"
   },
   {
+    "uid": "PistolRare",
     "category": "Pistol",
     "name": "Pistol",
     "rarity": "Rare",
@@ -442,6 +476,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/pistol.png"
   },
   {
+    "uid": "RevolverCommon",
     "category": "Pistol",
     "name": "Revolver",
     "rarity": "Common",
@@ -455,6 +490,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/revolver.png"
   },
   {
+    "uid": "RevolverUncommon",
     "category": "Pistol",
     "name": "Revolver",
     "rarity": "Uncommon",
@@ -468,6 +504,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/revolver.png"
   },
   {
+    "uid": "RevolverRare",
     "category": "Pistol",
     "name": "Revolver",
     "rarity": "Rare",
@@ -481,6 +518,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/revolver.png"
   },
   {
+    "uid": "SixShooterUncommon",
     "category": "Pistol",
     "name": "Six Shooter",
     "rarity": "Uncommon",
@@ -494,6 +532,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/six-shooter.png"
   },
   {
+    "uid": "SixShooterRare",
     "category": "Pistol",
     "name": "Six Shooter",
     "rarity": "Rare",
@@ -507,6 +546,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/six-shooter.png"
   },
   {
+    "uid": "SixShooterEpic",
     "category": "Pistol",
     "name": "Six Shooter",
     "rarity": "Epic",
@@ -520,6 +560,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/six-shooter.png"
   },
   {
+    "uid": "SuppressedPistolEpic",
     "category": "Pistol",
     "name": "Suppressed Pistol",
     "rarity": "Epic",
@@ -533,6 +574,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/suppressed-pistol.png"
   },
   {
+    "uid": "SuppressedPistolLegendary",
     "category": "Pistol",
     "name": "Suppressed Pistol",
     "rarity": "Legendary",
@@ -546,6 +588,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/suppressed-pistol.png"
   },
   {
+    "uid": "CompactGunCommon",
     "category": "SMG",
     "name": "Compact Gun",
     "rarity": "Common",
@@ -559,6 +602,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/compact-gun.png"
   },
   {
+    "uid": "CompactGunUncommon",
     "category": "SMG",
     "name": "Compact Gun",
     "rarity": "Uncommon",
@@ -572,6 +616,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/compact-gun.png"
   },
   {
+    "uid": "CompactGunRare",
     "category": "SMG",
     "name": "Compact Gun",
     "rarity": "Rare",
@@ -585,6 +630,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/compact-gun.png"
   },
   {
+    "uid": "CompactGunEpic",
     "category": "SMG",
     "name": "Compact Gun",
     "rarity": "Epic",
@@ -598,6 +644,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/compact-gun.png"
   },
   {
+    "uid": "CompactGunLegendary",
     "category": "SMG",
     "name": "Compact Gun",
     "rarity": "Legendary",
@@ -611,6 +658,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/compact-gun.png"
   },
   {
+    "uid": "SubmachineGunCommon",
     "category": "SMG",
     "name": "Submachine Gun",
     "rarity": "Common",
@@ -624,6 +672,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/submachine-gun.png"
   },
   {
+    "uid": "SubmachineGunUncommon",
     "category": "SMG",
     "name": "Submachine Gun",
     "rarity": "Uncommon",
@@ -637,6 +686,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/submachine-gun.png"
   },
   {
+    "uid": "SubmachineGunRare",
     "category": "SMG",
     "name": "Submachine Gun",
     "rarity": "Rare",
@@ -650,6 +700,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/submachine-gun.png"
   },
   {
+    "uid": "MinigunEpic",
     "category": "SMG",
     "name": "Minigun",
     "rarity": "Epic",
@@ -663,6 +714,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/minigun.png"
   },
   {
+    "uid": "MinigunLegendary",
     "category": "SMG",
     "name": "Minigun",
     "rarity": "Legendary",
@@ -676,6 +728,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/minigun.png"
   },
   {
+    "uid": "Bolt-ActionSniperRifleRare",
     "category": "Sniper",
     "name": "Bolt-Action Sniper Rifle",
     "rarity": "Rare",
@@ -689,6 +742,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/bolt-action-sniper-rifle.png"
   },
   {
+    "uid": "Bolt-ActionSniperRifleEpic",
     "category": "Sniper",
     "name": "Bolt-Action Sniper Rifle",
     "rarity": "Epic",
@@ -702,6 +756,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/bolt-action-sniper-rifle.png"
   },
   {
+    "uid": "Bolt-ActionSniperRifleLegendary",
     "category": "Sniper",
     "name": "Bolt-Action Sniper Rifle",
     "rarity": "Legendary",
@@ -715,6 +770,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/bolt-action-sniper-rifle.png"
   },
   {
+    "uid": "FiendHunterCrossbowEpic",
     "category": "Sniper",
     "name": "Fiend Hunter Crossbow",
     "rarity": "Epic",
@@ -728,6 +784,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/fiend-hunter-crossbow.png"
   },
   {
+    "uid": "HeavySniperEpic",
     "category": "Sniper",
     "name": "Heavy Sniper",
     "rarity": "Epic",
@@ -741,6 +798,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/heavy-sniper.png"
   },
   {
+    "uid": "HeavySniperLegendary",
     "category": "Sniper",
     "name": "Heavy Sniper",
     "rarity": "Legendary",
@@ -754,6 +812,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/heavy-sniper.png"
   },
   {
+    "uid": "HuntingRifleUncommon",
     "category": "Sniper",
     "name": "Hunting Rifle",
     "rarity": "Uncommon",
@@ -767,6 +826,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/hunting-rifle.png"
   },
   {
+    "uid": "HuntingRifleRare",
     "category": "Sniper",
     "name": "Hunting Rifle",
     "rarity": "Rare",
@@ -780,6 +840,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/hunting-rifle.png"
   },
   {
+    "uid": "GrenadeLauncherRare",
     "category": "Grenade Launcher",
     "name": "Grenade Launcher",
     "rarity": "Rare",
@@ -793,6 +854,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/grenade-launcher.png"
   },
   {
+    "uid": "GrenadeLauncherEpic",
     "category": "Grenade Launcher",
     "name": "Grenade Launcher",
     "rarity": "Epic",
@@ -806,6 +868,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/grenade-launcher.png"
   },
   {
+    "uid": "GrenadeLauncherLegendary",
     "category": "Grenade Launcher",
     "name": "Grenade Launcher",
     "rarity": "Legendary",
@@ -819,6 +882,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/grenade-launcher.png"
   },
   {
+    "uid": "QuadLauncherEpic",
     "category": "Grenade Launcher",
     "name": "Quad Launcher",
     "rarity": "Epic",
@@ -832,6 +896,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/quad-launcher.png"
   },
   {
+    "uid": "QuadLauncherLegendary",
     "category": "Grenade Launcher",
     "name": "Quad Launcher",
     "rarity": "Legendary",
@@ -845,6 +910,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/quad-launcher.png"
   },
   {
+    "uid": "RocketLauncherRare",
     "category": "Rocket Launcher",
     "name": "Rocket Launcher",
     "rarity": "Rare",
@@ -858,6 +924,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/rocket-launcher.png"
   },
   {
+    "uid": "RocketLauncherEpic",
     "category": "Rocket Launcher",
     "name": "Rocket Launcher",
     "rarity": "Epic",
@@ -871,6 +938,7 @@
     "imageSrc": "/app/images/fortnite/weapons_v2/rocket-launcher.png"
   },
   {
+    "uid": "RocketLauncherLegendary",
     "category": "Rocket Launcher",
     "name": "Rocket Launcher",
     "rarity": "Legendary",

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styled, { keyframes, css } from "styled-components";
 import { useSpring, animated as a } from "react-spring/hooks";
 import Portal from "../../Portal";
+import CompareButton from "./CompareButton";
 
 const fadeIn = keyframes`
   0% {
@@ -32,13 +33,13 @@ const fipCardAnimation = css`
 `;
 
 const backgroundGradient = css`
-  background: ${({ rarityHSL }) => `
+  background: ${({ rarityHSL: [h, s, l] }) => `
   linear-gradient(
     135deg,
-    hsl(${rarityHSL[0]}, ${rarityHSL[1]}%, ${rarityHSL[2]}%) 0%,
-    hsl(${rarityHSL[0]}, ${rarityHSL[1]}%, ${rarityHSL[2] - 10}%) 50%,
-    hsl(${rarityHSL[0]}, ${rarityHSL[1]}%, ${rarityHSL[2] - 20}%) 100%
-  );`});
+    hsl(${h}, ${s}%, ${l}%) 0%,
+    hsl(${h}, ${s}%, ${l - 10}%) 50%,
+    hsl(${h}, ${s}%, ${l - 20}%) 100%
+  );`};
 `;
 
 const StyledCardBody = styled.div`
@@ -57,6 +58,9 @@ const FrontCard = styled(StyledCardBody)`
   transform: rotate(-5deg);
   margin-left: -47px;
   ${props => (!props.animation ? fadeCardAnimation : null)};
+  :hover {
+    cursor: pointer;
+  }
 `;
 const BackCard = styled(StyledCardBody)`
   font-size: 0.4em;
@@ -80,9 +84,9 @@ const SmallIcon = styled.img`
 
 const StyledHeader = styled.header`
   color: white;
-  text-shadow: 3px 3px 2px #000000a1;
-  font-family: "Major Mono Display", monospace;
-  letter-spacing: 0px;
+  text-shadow: -2px 3px 1px #00000059;
+  font-family: "Staatliches", monospace;
+  letter-spacing: 1px;
   font-size: 1.4em;
   line-height: 0.9em;
 `;
@@ -109,7 +113,8 @@ const CardBody = ({
   envDamage,
   fireRate5,
   magazine,
-  reloadTime
+  reloadTime,
+  uid
 }) => {
   const [flipped, setFlipped] = useState(false);
   const imgUrl = `https://db.fortnitetracker.com/${img}`;
@@ -126,7 +131,7 @@ const CardBody = ({
       case "Legendary":
         return [36, 71, 55];
       default:
-        return "white";
+        return [0, 0, 0];
     }
   };
   return (
@@ -158,6 +163,7 @@ const CardBody = ({
               <p>fireRate5: {fireRate5}</p>
               <p>magazine: {magazine}</p>
               <p>reloadTime: {reloadTime}</p>
+              <CompareButton uid={uid} />
             </BackCard>
           </Modal>
         </Portal>
