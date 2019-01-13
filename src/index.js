@@ -1,12 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import WeaponSearch from "./components/WeaponSearch";
 import Header from "./components/Header";
 import MainContext from "./MainContext";
 import "semantic-ui-css/semantic.min.css";
 import WeaponCards from "./components/WeaponCards";
 import "./styles.css";
-import Portal from "./Portal";
 import CompareBoard from "./components/compare-area/CompareBar";
 
 function App() {
