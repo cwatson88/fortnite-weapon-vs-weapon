@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import styled, { keyframes, css } from "styled-components";
-import { useSpring, animated as a } from "react-spring/hooks";
 import Portal from "../../Portal";
 import CompareButton from "./CompareButton";
 

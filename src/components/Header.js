@@ -14,7 +14,7 @@ const StyledHeader = styled.h1`
 export default function Header() {
   return (
     <StyledHeader>
-      <img src={fnbr} /> <br />
+      <img src={fnbr} alt="fortnite logo"/> <br />
       Weapon vs Weapon
     </StyledHeader>
   );

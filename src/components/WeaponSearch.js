@@ -1,11 +1,9 @@
 import React, { useContext } from "react";
-import styled from "styled-components";
 import { GunsContext } from "../MainContext";
 import { Dropdown } from "semantic-ui-react";
 
 export default function WeaponSearch() {
   const context = useContext(GunsContext);
-  const { weaponList } = context.state;
   const { setGuns } = context.actions;
   const changeGun = e => {
     setGuns({ gun: e.target.value });
